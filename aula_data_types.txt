@@ -1,0 +1,118 @@
+# data_types
+
+# string = str, numbers= int or float, lists
+
+#1 strings smepre dentro de aspas duplas, simples
+
+##################### STRINGS ##################
+nome = 'Tati'
+
+print(nome)
+print(type(nome)) # tipo da variavel
+print(nome[3]) # indice da variavel, retorna uma letra
+print(len(nome)) # tamanho da variavel
+
+print(50*'-')
+################### INT #########################
+idade = 145463
+
+print(idade)
+print(type(idade)) # tipo da variavel
+
+print(50*'-')
+##################### FLOAT ########################
+peso = 81.40
+
+print(peso)
+print(type(peso)) # tipo da variavel
+
+#################### Listas #########################
+print(50*'-')
+lista_qq = ['Banana',10,8.9]
+print(lista_qq)
+print(type(lista_qq))
+print(lista_qq[2])
+#################### Booleans #########################
+print(50*'-')
+existe = True
+nao_existe = False
+#print(nao_existe)
+
+########################## operaores ######################
+soma = 2 + 2
+divisao = 10 / 2 #divisao
+multiplicacao = 10 * 2
+subtra = 10-2
+valor = 11 % 2 # resto da divisao
+#print(valor)
+numero1 = 'Tati'
+numero2 = 'tati'
+print(numero1 == numero2)
+print(numero1 is numero2) # numero 1 é igual a numero 2 ?
+########################## verificações ######################
+if numero1 == numero2:
+    print('oi')
+else:
+    print('ola')
+
+if numero1 is numero2:
+    print('oi')
+else:
+    print('ola')
+# comparar é entre duas coisas ou mais, e verificar, saber o valor de dentro de uma variavel
+existe1 = True
+if existe1: # if ja procura um valor verdadeiro da sentença
+    print('Existe')
+
+element = False
+if not element:
+    print('n existe')
+else:
+    print('existe2')
+#################################### exercicio Carne ##################################
+
+# temperatura = 56
+# if temperatura >= 52 and temperatura <= 55:
+#     print('Rare')
+# elif temperatura >= 55 and temperatura <= 60:
+#     print('Medium Rare')
+# elif temperatura >= 60 and temperatura <= 65:
+#     print('Medium')
+# elif temperatura >= 65 and temperatura <= 69:
+#     print('Medium well')
+# elif temperatura >= 69 and temperatura <= 100:
+#     print('Well Done')
+# else:
+#     print('Ta crua')
+
+#################################### exercicio de compras ##################################
+# Robesvaldo está indo as compras:
+# Robesvaldo gostou muito de uma tv 4K que viu na propaganda ,
+#  ele deseja comprá-la, mas durante o dia acontecerão algumas coisas que poderá fazê-lo
+# comprar ou não.
+
+# Robesvaldo só compra a tv se ganhar uma promoção no trabalho
+# (variável com valor lógico exemplo : promoção = True ou False ),
+# se estiver chovendo robs não compra a tv e
+# se ele não ganhar promoção ele vai pro shopping
+# tomar sorvete
+# e se não estiver chovendo  e ele não ganhe promoção , ele fica em casa
+
+promocao = False
+chovendo = False
+if promocao:
+    print('compra tv')
+elif not promocao:
+    print('indo para o shopping tomar sorvete')
+elif not chovendo and not promocao:
+    print('at Home')
+elif chovendo:
+    print('Não compra tv')
+
+
+if promocao or chovendo:
+    print('aqui')
+
+################## Laços de repetição ####################
+
+# for and While for loop or while loop
