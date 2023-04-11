@@ -1,0 +1,30 @@
+1 - Crie um programa que imprima na tela a frase "Olá Mundo!"
+
+2 - (DESAFIO pesquisa) faça um scrip que mostra soma de dois numero
+
+
+3 - Crie um programa que receba 4 notas , calcule a media e diga se o aluno está aprovado, reprovado ou em recuperação
+se a nota dele for maior que 4 e menor que 6, exibir "aluno em recuperação"
+se a nota for maior que 7 exibir a mensagem "Aprovado"
+caso contrário,exibir que o aluno está reprovado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 - Crie um programa que receba o nome do usuario e imprima uma saldação: Seja Bem vindo, fulano
+2 - (DESAFIO pesquisa) faça um scrip que receba dois numeros do usuario e diga: "a soma do numero x + y é igual z"
+3 - Crie um programa que receba 4 notas do usuario e o nome do aluno, calcule a media e diga se o aluno está aprovado, reprovado ou em recuperação
+se a nota dele for maior que 4 e menor que 6, exibir "fulano , vc está em recuperação"
+se a nota for maior que 7 exibir a mensagem "fulano, vc está Aprovado"
+caso contrário,exibir que o fulano está reprovado.
