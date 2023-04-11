@@ -45,27 +45,7 @@
 # # print(d.valor)
 # # print(d.soma())
 #
-# class EntrarBd:
-#
-#     def cadastrar(self,nome: str, idade:int) -> None:
-#         if self.__verificar_dados(nome, idade):
-#             self.__armazenar_usuario()
-#         else:
-#             self.__apresentar_erro()
-#
-#     def __verificar_dados(self, nome: str, idade:int) -> bool:
-#         if isinstance(nome, str) and isinstance(idade, int):
-#             return True
-#         else:
-#             return False
-#     def __armazenar_usuario(self) ->None:
-#         print('entrando e ar,azemamdp')
-#
-#     def __apresentar_erro(self)->None:
-#         print('dados invalidos')
-#
-# em = EntrarBd()
-# em.cadastrar('igor',5.6)
+
 
 a = '3'
 b = '2'
